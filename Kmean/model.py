@@ -68,7 +68,7 @@ def kMeans(X, k):
     print("loss: {}".format(loss))
     # 聚类后的标签
     labels = clusterAssign[:, 0]
-    return labels, k
+    return labels, loss, k
 
 
 # 展示聚类结果
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     X, labels_true = make_blobs(n_samples=750, centers=centers, cluster_std=0.4, random_state=0)
 
     X = StandardScaler().fit_transform(X)
-    labels, k = kMeans(X, 3)
+    labels, loss, k = kMeans(X, 3)
     show_cluster_result(X, labels, k)
 
 
