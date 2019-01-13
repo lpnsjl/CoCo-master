@@ -309,12 +309,11 @@ def displayData(svm, X, y):
 
 if __name__ == "__main__":
     from scipy import io
-    data = io.loadmat("ex6data2.mat")
+    data = io.loadmat("ex6data1.mat")
     X = data['X']
     y = data['y'].flatten()
-    svm = SVM(X, y, 1, 0.001, ['rbf', 0.1])
+    svm = SVM(X, y, 1, 0.001, ['linear'])
     svm.smo(100)
     svm.evaluate(X, y)
-    print(svm.alphas[svm.alphas != 0])
     print(svm.b)
     displayData(svm, X, y)
