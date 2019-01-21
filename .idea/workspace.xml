@@ -2,56 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8638840d-481e-4705-9c08-be2bd2fc99e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CoCo/LinearRegression/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoCo/LinearRegression/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoCo/LogicRegression/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoCo/LogicRegression/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoCo/LogicRegression/operation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CoCo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoCo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CART/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CART/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunkSVD/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunkSVD/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CoCo-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoCo-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearRegression/linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearRegression/linearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CoCo_master$test.coverage" NAME="test Coverage Results" MODIFIED="1547378229312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CoCo$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1545876996458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CoCo$compute_J.coverage" NAME="compute_J Coverage Results" MODIFIED="1526122898492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logstic_regression" />
-    <SUITE FILE_PATH="coverage/CoCo$RecursiveNet.coverage" NAME="RecursiveNet Coverage Results" MODIFIED="1545900728479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CoCo$CoCo.coverage" NAME="CoCo Coverage Results" MODIFIED="1546392065294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/CoCo$AnomalyDetection.coverage" NAME="AnomalyDetection Coverage Results" MODIFIED="1530415106640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnomalyDetection" />
-    <SUITE FILE_PATH="coverage/CoCo$model__2_.coverage" NAME="model (2) Coverage Results" MODIFIED="1546485749231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogicRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$network.coverage" NAME="network Coverage Results" MODIFIED="1528014284427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
-    <SUITE FILE_PATH="coverage/CoCo$client.coverage" NAME="client Coverage Results" MODIFIED="1529803238096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CoCo$linearRegression__2_.coverage" NAME="linearRegression (2) Coverage Results" MODIFIED="1526737022948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$compute_theta.coverage" NAME="compute_theta Coverage Results" MODIFIED="1526195853669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logstic_regression" />
-    <SUITE FILE_PATH="coverage/CoCo$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1546483755953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CoCo/LogicRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$linearRegression.coverage" NAME="linearRegression Coverage Results" MODIFIED="1546391207052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$linearRegression__1_.coverage" NAME="linearRegression (1) Coverage Results" MODIFIED="1526722007420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearTegression" />
-    <SUITE FILE_PATH="coverage/CoCo$StandardRnn.coverage" NAME="StandardRnn Coverage Results" MODIFIED="1545872709325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CoCo$logicRegression.coverage" NAME="logicRegression Coverage Results" MODIFIED="1526785761789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logicRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$test.coverage" NAME="test Coverage Results" MODIFIED="1545900404858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo_master$model__3_.coverage" NAME="model (3) Coverage Results" MODIFIED="1546943798287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kmean" />
+    <SUITE FILE_PATH="coverage/CoCo$CoCo.coverage" NAME="CoCo Coverage Results" MODIFIED="1546392065294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CoCo$pca.coverage" NAME="pca Coverage Results" MODIFIED="1529366730994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/CoCo$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1526720974194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearTegression" />
-    <SUITE FILE_PATH="coverage/CoCo$model.coverage" NAME="model Coverage Results" MODIFIED="1546391342274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CoCo/LinearRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$compute_theta__1_.coverage" NAME="compute_theta (1) Coverage Results" MODIFIED="1526707520940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_regression" />
-    <SUITE FILE_PATH="coverage/CoCo$load_data__1_.coverage" NAME="load_data (1) Coverage Results" MODIFIED="1527296808691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logicRegression" />
-    <SUITE FILE_PATH="coverage/CoCo$load_starndardrnn_data.coverage" NAME="load_starndardrnn_data Coverage Results" MODIFIED="1545747983016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepend" />
     <SUITE FILE_PATH="coverage/CoCo$dnn.coverage" NAME="dnn Coverage Results" MODIFIED="1545872834882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$compute_theta__1_.coverage" NAME="compute_theta (1) Coverage Results" MODIFIED="1526707520940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_regression" />
+    <SUITE FILE_PATH="coverage/CoCo_master$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1547376667238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$model__2_.coverage" NAME="model (2) Coverage Results" MODIFIED="1546485749231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogicRegression" />
+    <SUITE FILE_PATH="coverage/CoCo_master$model__2_.coverage" NAME="model (2) Coverage Results" MODIFIED="1546943787349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogicRegression" />
+    <SUITE FILE_PATH="coverage/CoCo$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1526720974194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearTegression" />
+    <SUITE FILE_PATH="coverage/CoCo$load_data__1_.coverage" NAME="load_data (1) Coverage Results" MODIFIED="1527296808691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logicRegression" />
+    <SUITE FILE_PATH="coverage/CoCo$linearRegression__1_.coverage" NAME="linearRegression (1) Coverage Results" MODIFIED="1526722007420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearTegression" />
+    <SUITE FILE_PATH="coverage/CoCo$AnomalyDetection.coverage" NAME="AnomalyDetection Coverage Results" MODIFIED="1530415106640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnomalyDetection" />
+    <SUITE FILE_PATH="coverage/CoCo$RecursiveNet.coverage" NAME="RecursiveNet Coverage Results" MODIFIED="1545900728479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$network.coverage" NAME="network Coverage Results" MODIFIED="1528014284427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/CoCo$compute_J.coverage" NAME="compute_J Coverage Results" MODIFIED="1526122898492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logstic_regression" />
+    <SUITE FILE_PATH="coverage/CoCo$load_starndardrnn_data.coverage" NAME="load_starndardrnn_data Coverage Results" MODIFIED="1545747983016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepend" />
+    <SUITE FILE_PATH="coverage/CoCo$client.coverage" NAME="client Coverage Results" MODIFIED="1529803238096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$model.coverage" NAME="model Coverage Results" MODIFIED="1546391342274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CoCo/LinearRegression" />
+    <SUITE FILE_PATH="coverage/CoCo$test.coverage" NAME="test Coverage Results" MODIFIED="1545900404858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1546483755953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CoCo/LogicRegression" />
+    <SUITE FILE_PATH="coverage/CoCo$logicRegression.coverage" NAME="logicRegression Coverage Results" MODIFIED="1526785761789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logicRegression" />
+    <SUITE FILE_PATH="coverage/CoCo_master$model.coverage" NAME="model Coverage Results" MODIFIED="1547777365487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FunkSVD" />
+    <SUITE FILE_PATH="coverage/CoCo_master$model__4_.coverage" NAME="model (4) Coverage Results" MODIFIED="1546943498333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/CoCo$compute_theta.coverage" NAME="compute_theta Coverage Results" MODIFIED="1526195853669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logstic_regression" />
+    <SUITE FILE_PATH="coverage/CoCo$StandardRnn.coverage" NAME="StandardRnn Coverage Results" MODIFIED="1545872709325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo$linearRegression.coverage" NAME="linearRegression Coverage Results" MODIFIED="1546391207052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearRegression" />
+    <SUITE FILE_PATH="coverage/CoCo_master$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1547422379104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CoCo/LogicRegression/model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="196" column="41" lean-forward="true" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+            <state relative-caret-position="5168">
+              <caret line="305" column="23" selection-start-line="305" selection-start-column="23" selection-end-line="305" selection-end-column="23" />
+              <folding>
+                <element signature="e#17#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FunkSVD/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="e#20#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CART/Model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -61,8 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -70,11 +98,13 @@
     <findStrings>
       <find>vocabulary_size</find>
       <find>TanActivator</find>
+      <find>iter</find>
     </findStrings>
     <replaceStrings>
       <replace>input_width</replace>
       <replace>TanhActivator</replace>
       <replace>loss</replace>
+      <replace>epoch</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -111,26 +141,23 @@
         <option value="$PROJECT_DIR$/activation.py" />
         <option value="$PROJECT_DIR$/StandardRnn.py" />
         <option value="$PROJECT_DIR$/LSTM.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/RecursiveNet.py" />
         <option value="$PROJECT_DIR$/linearRegression/linearRegression.py" />
         <option value="$PROJECT_DIR$/CoCo/opreation.ipynb" />
         <option value="$PROJECT_DIR$/CoCo/LinearRegression/model.py" />
         <option value="$PROJECT_DIR$/CoCo/LogicRegression/operation.ipynb" />
         <option value="$PROJECT_DIR$/CoCo/LogicRegression/model.py" />
+        <option value="$PROJECT_DIR$/Kmean/model.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/SVM/operation.ipynb" />
+        <option value="$PROJECT_DIR$/SVM/model.py" />
+        <option value="$PROJECT_DIR$/FunkSVD/model.py" />
+        <option value="$PROJECT_DIR$/CART/Model.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="363" />
     <option name="y" value="79" />
     <option name="width" value="1301" />
@@ -144,29 +171,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CoCo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoCo" type="462c0819:PsiDirectoryNode" />
+              <item name="CoCo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCo-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CoCo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoCo" type="462c0819:PsiDirectoryNode" />
-              <item name="CoCo" type="462c0819:PsiDirectoryNode" />
+              <item name="CoCo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoCo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="CART" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoCo-master (复件)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model (2)">
+  <component name="RunManager" selected="Python.model">
     <configuration name="CoCo" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="CoCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,9 +224,76 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
     </configuration>
-    <configuration name="RecursiveNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo" />
+    <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kmean" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kmean/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FunkSVD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FunkSVD/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -211,103 +305,52 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RecursiveNet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="linearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo" />
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linearRegression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linearRegression/linearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoCo/LogicRegression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoCo/LogicRegression/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="model (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LogicRegression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogicRegression/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoCo/LinearRegression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoCo/LinearRegression/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.CoCo" />
-      <item itemvalue="Python.RecursiveNet" />
-      <item itemvalue="Python.linearRegression" />
-      <item itemvalue="Python.model" />
+      <item itemvalue="Python.model (3)" />
       <item itemvalue="Python.model (1)" />
-      <item itemvalue="Python.model (2)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.model" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.model (2)" />
-        <item itemvalue="Python.model (1)" />
         <item itemvalue="Python.model" />
-        <item itemvalue="Python.linearRegression" />
-        <item itemvalue="Python.RecursiveNet" />
+        <item itemvalue="Python.model (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.model (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -321,8 +364,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526122654831</updated>
+      <workItem from="1546941088446" duration="328000" />
+      <workItem from="1546941425436" duration="287000" />
+      <workItem from="1546941712930" duration="42000" />
+      <workItem from="1546941995694" duration="17000" />
+      <workItem from="1546942048756" duration="395000" />
+      <workItem from="1546942468701" duration="1394000" />
+      <workItem from="1547015506236" duration="5255000" />
+      <workItem from="1547084410836" duration="11905000" />
+      <workItem from="1547165029061" duration="11753000" />
+      <workItem from="1547185372698" duration="6364000" />
+      <workItem from="1547282524717" duration="1868000" />
+      <workItem from="1547338076036" duration="691000" />
+      <workItem from="1547359433514" duration="3503000" />
+      <workItem from="1547362944869" duration="5333000" />
+      <workItem from="1547368288701" duration="2133000" />
+      <workItem from="1547370429793" duration="6977000" />
+      <workItem from="1547387497342" duration="624000" />
+      <workItem from="1547422363126" duration="19000" />
+      <workItem from="1547771321795" duration="6048000" />
+      <workItem from="1548052790624" duration="6448000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,29 +400,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-11" width="1873" height="1092" extended-state="7" />
+    <frame x="52" y="-11" width="1869" height="1092" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
-      <window_info anchor="right" id="Event Log" order="5" side_tool="true" weight="0.32889584" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32822084" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32655245" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25267667" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3222698" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48101267" visible="true" weight="0.17569786" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.29501915" />
-      <window_info id="Structure" order="1" sideWeight="0.51816744" side_tool="true" weight="0.17569786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4797203" visible="true" weight="0.17537108" />
+      <window_info id="Structure" order="1" sideWeight="0.5202797" side_tool="true" weight="0.17537108" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39828694" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25209206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39748955" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32740587" />
+      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.3253138" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3211297" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.36173722" />
+      <window_info anchor="right" id="Event Log" order="5" side_tool="true" weight="0.32889584" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,14 +463,22 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="12" />
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="train_label.max" />
@@ -413,220 +487,126 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linear_regression/load_data.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/load_data.py" />
-    <entry file="file://$PROJECT_DIR$/linear_regression/linearRegression.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_J.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_theta.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/load_data.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_J.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/load_data.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_theta.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/plot.ipynb" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/load_data.py" />
     <entry file="file://$PROJECT_DIR$/logstic_regression/compute_J.py" />
     <entry file="file://$PROJECT_DIR$/logstic_regression/compute_theta.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/load_data.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/scipy/optimize/optimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="1277" lean-forward="true" selection-start-line="1277" selection-end-line="1277" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/scipy/optimize/optimize.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/linearRegression.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/compute_theta.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/computeJ.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/exercise.ipynb" />
-    <entry file="file://$PROJECT_DIR$/linearRegression/load_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="92" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logicRegression/.ipynb_checkpoints/ex2-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logicRegression/load_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/神经网络优化结果">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kmean/kmean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/linearRegression/load_data.py" />
+    <entry file="file://$PROJECT_DIR$/logicRegression/.ipynb_checkpoints/ex2-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/logicRegression/load_data.py" />
+    <entry file="file://$PROJECT_DIR$/network/神经网络优化结果" />
+    <entry file="file://$PROJECT_DIR$/kmean/kmean.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/pca.py" />
     <entry file="file://$PROJECT_DIR$/AnomalyDetection/AnomalyDetection.py" />
     <entry file="file://$PROJECT_DIR$/CNN/cnn.py" />
     <entry file="file://$PROJECT_DIR$/activate.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1247971764/_csv.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1247971764/_csv.py" />
+    <entry file="file://$PROJECT_DIR$/client.py" />
+    <entry file="file://$PROJECT_DIR$/gradient_check.py" />
+    <entry file="file://$PROJECT_DIR$/kalman.py" />
+    <entry file="file://$PROJECT_DIR$/layers/Convolution.py" />
+    <entry file="file://$PROJECT_DIR$/layers/Flatten.py" />
+    <entry file="file://$PROJECT_DIR$/layers/pool.py" />
+    <entry file="file://$PROJECT_DIR$/layers/FullConnection.py" />
+    <entry file="file://$PROJECT_DIR$/network/network.py" />
+    <entry file="file://$PROJECT_DIR$/prepend/load_starndardrnn_data.py" />
+    <entry file="file://$PROJECT_DIR$/StandardRnn.py" />
+    <entry file="file://$PROJECT_DIR$/LSTM.py" />
+    <entry file="file://$PROJECT_DIR$/dnn.py" />
+    <entry file="file://$PROJECT_DIR$/RecursiveNet.py" />
+    <entry file="file://$PROJECT_DIR$/activation.py" />
+    <entry file="file://$PROJECT_DIR$/linearRegression/linearRegression.py" />
+    <entry file="file://$PROJECT_DIR$/CoCo/opreation.ipynb" />
+    <entry file="file://$PROJECT_DIR$/CoCo/LinearRegression/opreation.ipynb" />
+    <entry file="file://$PROJECT_DIR$/logicRegression/logicRegression.py" />
+    <entry file="file://$PROJECT_DIR$/CoCo/LinearRegression/model.py" />
+    <entry file="file://$PROJECT_DIR$/CoCo/LogicRegression/operation.ipynb" />
+    <entry file="file://$PROJECT_DIR$/CoCo/LogicRegression/model.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        <state relative-caret-position="79">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#65#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradient_check.py">
+    <entry file="file://$PROJECT_DIR$/LinearRegression/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kalman.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layers/Convolution.py">
+    <entry file="file://$PROJECT_DIR$/Kmean/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#64#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layers/Flatten.py">
+    <entry file="file://$PROJECT_DIR$/LogicRegression/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="632">
+          <caret line="218" column="50" selection-start-line="218" selection-start-column="50" selection-end-line="218" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layers/pool.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+        <state relative-caret-position="276">
+          <caret line="1652" selection-start-line="1652" selection-end-line="1652" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layers/FullConnection.py">
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/SVM/operation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5168">
+          <caret line="305" column="23" selection-start-line="305" selection-start-column="23" selection-end-line="305" selection-end-column="23" />
+          <folding>
+            <element signature="e#17#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunkSVD/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/network.py">
+    <entry file="file://$PROJECT_DIR$/CART/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepend/load_starndardrnn_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StandardRnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="166" column="76" selection-start-line="163" selection-start-column="4" selection-end-line="166" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4029">
-          <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RecursiveNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linearRegression/linearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoCo/opreation.ipynb" />
-    <entry file="file://$PROJECT_DIR$/CoCo/LinearRegression/opreation.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logicRegression/logicRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoCo/LinearRegression/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoCo/LogicRegression/operation.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoCo/LogicRegression/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="196" column="41" lean-forward="true" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+        <state relative-caret-position="508">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
