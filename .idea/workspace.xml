@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8638840d-481e-4705-9c08-be2bd2fc99e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CART/Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CART/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunkSVD/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunkSVD/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CoCo-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoCo-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNN/Layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNN/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNN/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +22,7 @@
     <SUITE FILE_PATH="coverage/CoCo_master$model__3_.coverage" NAME="model (3) Coverage Results" MODIFIED="1546943798287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kmean" />
     <SUITE FILE_PATH="coverage/CoCo$CoCo.coverage" NAME="CoCo Coverage Results" MODIFIED="1546392065294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CoCo$pca.coverage" NAME="pca Coverage Results" MODIFIED="1529366730994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/CoCo_master$Layer.coverage" NAME="Layer Coverage Results" MODIFIED="1548322824765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
     <SUITE FILE_PATH="coverage/CoCo$dnn.coverage" NAME="dnn Coverage Results" MODIFIED="1545872834882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CoCo$compute_theta__1_.coverage" NAME="compute_theta (1) Coverage Results" MODIFIED="1526707520940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_regression" />
     <SUITE FILE_PATH="coverage/CoCo_master$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1547376667238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -46,40 +45,52 @@
     <SUITE FILE_PATH="coverage/CoCo_master$model__4_.coverage" NAME="model (4) Coverage Results" MODIFIED="1546943498333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/CoCo$compute_theta.coverage" NAME="compute_theta Coverage Results" MODIFIED="1526195853669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logstic_regression" />
     <SUITE FILE_PATH="coverage/CoCo$StandardRnn.coverage" NAME="StandardRnn Coverage Results" MODIFIED="1545872709325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoCo_master$Model.coverage" NAME="Model Coverage Results" MODIFIED="1548337941192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
     <SUITE FILE_PATH="coverage/CoCo$linearRegression.coverage" NAME="linearRegression Coverage Results" MODIFIED="1546391207052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linearRegression" />
     <SUITE FILE_PATH="coverage/CoCo_master$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1547422379104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/model.py">
+        <entry file="file://$PROJECT_DIR$/DNN/Layer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5168">
-              <caret line="305" column="23" selection-start-line="305" selection-start-column="23" selection-end-line="305" selection-end-column="23" />
-              <folding>
-                <element signature="e#17#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunkSVD/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#20#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CART/Model.py">
+        <entry file="file://$PROJECT_DIR$/DNN/Model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="686">
+              <caret line="161" column="78" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
+              <folding>
+                <element signature="e#16#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Activator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -154,6 +165,9 @@
         <option value="$PROJECT_DIR$/SVM/model.py" />
         <option value="$PROJECT_DIR$/FunkSVD/model.py" />
         <option value="$PROJECT_DIR$/CART/Model.py" />
+        <option value="$PROJECT_DIR$/DNN/Layer.py" />
+        <option value="$PROJECT_DIR$/Activator.py" />
+        <option value="$PROJECT_DIR$/DNN/Model.py" />
       </list>
     </option>
   </component>
@@ -182,7 +196,7 @@
             <path>
               <item name="CoCo-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="CoCo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="CART" type="462c0819:PsiDirectoryNode" />
+              <item name="DNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoCo-master (复件)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model">
+  <component name="RunManager" selected="Python.Model">
     <configuration name="CoCo" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="CoCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +240,50 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
+    <configuration name="Layer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNN/Layer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CoCo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNN/Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CoCo-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,28 +298,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="model (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kmean" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kmean/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,43 +350,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CoCo-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.CoCo" />
-      <item itemvalue="Python.model (3)" />
       <item itemvalue="Python.model (1)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.model" />
+      <item itemvalue="Python.Layer" />
+      <item itemvalue="Python.Model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Model" />
+        <item itemvalue="Python.Layer" />
         <item itemvalue="Python.model" />
         <item itemvalue="Python.model (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.model (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -384,11 +398,15 @@
       <workItem from="1547422363126" duration="19000" />
       <workItem from="1547771321795" duration="6048000" />
       <workItem from="1548052790624" duration="6448000" />
+      <workItem from="1548061820798" duration="36000" />
+      <workItem from="1548120000692" duration="603000" />
+      <workItem from="1548208894352" duration="2507000" />
+      <workItem from="1548312610830" duration="17400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71384000" />
+    <option name="totallyTimeSpent" value="91930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,8 +420,8 @@
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1869" height="1092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4797203" visible="true" weight="0.17537108" />
-      <window_info id="Structure" order="1" sideWeight="0.5202797" side_tool="true" weight="0.17537108" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47907948" visible="true" weight="0.17537108" />
+      <window_info id="Structure" order="1" sideWeight="0.5209205" side_tool="true" visible="true" weight="0.17537108" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -414,14 +432,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32740587" />
-      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.3253138" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32426777" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3211297" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.36173722" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32985157" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.36173722" />
       <window_info anchor="right" id="Event Log" order="5" side_tool="true" weight="0.32889584" />
     </layout>
   </component>
@@ -487,10 +505,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_J.py" />
-    <entry file="file://$PROJECT_DIR$/logstic_regression/compute_theta.py" />
-    <entry file="file://$PROJECT_DIR$/linear_regression/load_data.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/scipy/optimize/optimize.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/linearRegression.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/compute_theta.py" />
     <entry file="file://$PROJECT_DIR$/linear_regression/computeJ.py" />
@@ -567,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/SVM/operation.ipynb">
@@ -595,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunkSVD/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>
@@ -605,8 +612,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CART/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/Layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Activator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="161" column="78" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
