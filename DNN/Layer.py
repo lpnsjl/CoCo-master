@@ -41,7 +41,7 @@ class Layer:
         self.dW = (dZ@self.A.T)/m  # 计算dW
         # print(self.dW)
         self.db = np.sum(dZ, axis=1, keepdims=True)/m  # 计算db
-        dZ = self.W.T@dZ*self.backward_activator.backward_propagation(self.A)  # 计算本层的误差
+        dZ = self.W.T@dZ*self.backward_activator.backward_propagation(self.A)  # 计算前一层的误差
         return dZ
 
     def update(self, alpha):

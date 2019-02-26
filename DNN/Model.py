@@ -156,10 +156,10 @@ def load_data():
 if __name__ == "__main__":
     (train_data, train_label), (test_data, test_label) = load_data()
     # 初始化神经网络模型
-    layers = [{"input_size": 784, "output_size":25, "backward_activator": Sigmoid, "forward_activator": ReLu},
-              {"input_size": 25, "output_size": 10, "backward_activator": ReLu, "forward_activator": Softmax}]
+    layers = [{"input_size": 784, "output_size":15, "backward_activator": ReLu, "forward_activator": ReLu},
+              {"input_size": 15, "output_size": 10, "backward_activator": ReLu, "forward_activator": Softmax}]
     model = Model(layers)
-    model.train(train_data[:, :60000], train_label[:, :60000], 64, 1000, 0.0005)
+    model.train(train_data[:, :60000], train_label[:, :60000], 64, 1000, 0.005)
     # 画图
     history = model.history
     size = len(history)

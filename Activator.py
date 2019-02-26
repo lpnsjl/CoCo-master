@@ -40,6 +40,14 @@ class ReLu:
         A[index] = 1
         return A
 
+# IdentityActivator激活函数
+class Identity:
+    @staticmethod
+    def forward_propagation(Z):
+        return Z
+    @staticmethod
+    def backward_propagation(A):
+        return np.ones(A.shape)
 
 # softmax激活函数
 class Softmax:
